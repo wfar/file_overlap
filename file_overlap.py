@@ -14,7 +14,7 @@ def overlap_check(x,y):
     for item in x:
         if item in y:
             item_list.append(item)
-
+    #Change to str or flaot depending on the data
     item_list_2 = [int(x) for x in item_list]        
 
     print('\nHere is a list of the items that overlap in both files:')
